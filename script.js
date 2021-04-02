@@ -18,6 +18,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/exercises', function (req, res) {
+    res.render("index")
     getALLExercises().then(exercises => {
         res.send(JSON.stringify(exercises));
     });
