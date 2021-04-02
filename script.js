@@ -13,6 +13,7 @@ let mongoClient = MongoClient;
 
 
 app.get('/', function (req, res) {
+    res.render("index")
     res.send("Hi!")
 })
 
