@@ -3,8 +3,6 @@
 const express = require("express");
 const app = express();
 
-const fs = require('fs');
-
 app.listen(process.env.PORT || 3000,
     () => console.log("Server is running..."));
 app.use('/', express.static(__dirname));
@@ -19,20 +17,11 @@ app.get('/', function (req, res) {
     res.sendFile("index")
 })
 
-app.get('/exercises', (req, res, next) => {
-    res.setHeader("Content-Type", "application/json");
-    res.status(200);
+app.get('/exercises', function (req, res) {
     getALLExercises().then(exercises => {
-        res.json(JSON.stringify(exercises));
+        res.send(JSON.stringify(exercises));
     });
-    next();
 })
-
-app.get("/exercises1", (request, response, next) => {
-    response.json({ message: "Hey! This is your server response!" });
-    next();
-});
-
 
 function getALLExercises() {
     let db;
