@@ -17,6 +17,10 @@ app.get('/', function (req, res) {
     res.sendFile("index")
 })
 
+app.get('/', function (req, res) {
+    res.status(200).sendFile("exercises.json")
+})
+
 app.get('/exercises', function (req, res) {
     getALLExercises().then(exercises => {
         res.send(JSON.stringify(exercises));
