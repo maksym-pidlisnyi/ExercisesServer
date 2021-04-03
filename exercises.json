@@ -1,52 +1,82 @@
 [
   {
     "id":"60637926537492872ec05fe4",
-    "name":"Puch Press",
-    "description":"Place a barbell in a squat rack so that the bar is slightly lower than shoulder height, and grip the bar with the hands about shoulder-width apart. Dip under the bar to lift it up and rest it on the front of shoulders, then step back away from the rack. Place the feet hip-width apart, and bend at the knees while keeping the back straight. Quickly press the feet into the floor and snap the hips forward while pushing the weight directly overhead with the elbows facing away from the body. Slowly lower the barbell to the shoulders and repeat. The power for moving the weight should come from the hips and transfer through the shoulders and arms.",
-    "category":"Full Body",
-    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/24-1.jpg",
-    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/71-1.jpg",
-    "equipment":"Barbell",
+    "name":"High Plank T-spine Rotation",
+    "description":"Start in a push-up position with hands under the shoulders and the legs straightened directly behind the body about hip-width apart. Squeeze the thighs and glutes while straightening the right arm and pressing it into the floor. At the same time, lift the left hand up and twist the hips and shoulders to raise the left arm up towards the ceiling. Bring the left arm down, press the left hand into the floor, and twist the hips and shoulders to alternate sides, lifting the right hand into the air. Repeat for the desired number of repetitions.",
+    "category":"Abs, Shoulders",
+    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/330-1.jpg",
+    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/330-2.jpg",
+    "equipment":"No Equipment",
     "difficulty":"Advanced"
   },
   {
     "id":"60672ad0e4a7f029a4ae1594",
+    "name":"Close-grip Bench Press",
+    "description":"Place two cable pulleys slightly above the shoulder height with handle attachments, grip one handle in each hand and step forward so that the arms are outstretched to the sides. With the elbows slightly bent, slowly bring both hands together in front of the body. When the hands are together, pause for one second before slowly returning the arms to the starting position. ",
+    "category":"Arms, Chest",
+    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/311-1.jpg",
+    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/311-2.jpg",
+    "equipment":"Barbell",
+    "difficulty":"Intermediate"
+  },
+  {
+    "id":"60672e26e4a7f029a4ae1595",
+    "name":"Lying Pullovers",
+    "description":"Lie face up on a bench with the feet resting comfortably on the floor, and straighten the arms above the chest while holding one dumbbell in each hand with the palms facing each other. Slowly stretch the arms up overhead while keeping the elbows straight. Once the arms are overhead slowly pull the weights back up to the original starting position. Repeat for the desired number of repetitions.",
+    "category":"Chest",
+    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/37-1.jpg",
+    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/37-2.jpg",
+    "equipment":"Bench, Dumbbells",
+    "difficulty":"Intermediate"
+  },
+  {
+    "id":"60672ec6e4a7f029a4ae1596",
     "name":"Chest Press",
     "description":"Lie face up on a flat bench, and grip a barbell with the hands slightly wider than shoulder-width. Press the feet into the ground and the hips into the bench while lifting the bar off the rack. Slowly lower the bar to the chest by allowing the elbows to bend out to the side. Stop when the elbows are just below the bench, and press feet into the floor to press the weight straight up to return to the starting position.",
-    "category":"Chest",
+    "category":"Arms, Chest, Shoulders",
     "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/5-1.jpg",
     "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/5-2.jpg",
     "equipment":"Barbell, Bench",
     "difficulty":"Beginner"
   },
   {
-    "id":"60672e26e4a7f029a4ae1595",
-    "name":"High Row",
-    "description":"Stand with the feet hip-width apart, the hips straight, the back tall, and the knees slightly bent. Place the cable pulley at about shoulder-height, attach a rope handle, and hold one end of the rope in each hand with the palms facing down. Turn to face the machine. Lift the chest up and pull the elbows back until the hands are right in front of the shoulders, then pause for 2-3 seconds. Slowly straighten the arms to return the weight to the starting position.",
-    "category":"Back",
-    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/336-1.jpg",
-    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/336-2.jpg",
-    "equipment":"Resistance Bands/Cables",
-    "difficulty":"Intermediate"
-  },
-  {
-    "id":"60672ec6e4a7f029a4ae1596",
-    "name":"Calf Raises",
-    "description":"Place a barbell in a rack at about shoulder-height. Dip under the bar so that it rests behind the neck across the top of the back and shoulder blades, and grip the bar with the hands just outside the shoulders. Raise the chest and squeeze the shoulder blades together to maintain a straight back throughout the entire movement. Stand up to bring the bar off the rack and step backwards, placing both feet approximately hip-width apart and squarely set on the floor with the toes pointed forward. (Tip: for more development on the outside of calves point feet slightly inwards.) Keep a slight bend in knees, and press the toes into the ground while lifting the heels up. Pause at the top, and slowly roll the heels back down to the floor, then pause again and repeat for the desired number of repetitions.",
-    "category":"Legs",
-    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/51-1.jpg",
-    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/51-2.jpg",
-    "equipment":"Barbell",
-    "difficulty":"Intermediate"
-  },
-  {
     "id":"60672f70e4a7f029a4ae1597",
-    "name":"Triceps Pressdown",
-    "description":"Stand with the feet hip-width apart, the hips straight, the back straight and tall, and the knees slightly bent. Place the cable pulley at the highest position, use a rope attachment, and grip the ends firmly in both hands. Pull the elbows close to the sides, and slowly push the hands down towards the floor, straightening the arms all the way then bending the elbows to return to the starting position.",
-    "category":"Arms",
-    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/3-1.jpg",
-    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/3-2.jpg",
-    "equipment":"Resistance Bands/Cables",
+    "name":"Bent-over Row",
+    "description":"Grip a barbell with palms down so that the wrists, elbows, and shoulders are in a straight line. Lift the bar from the rack, bend forward at the hips, and keep the back straight with a slight bend in the knees. Lower the bar towards the floor until the elbows are completely straight, and keep the back flat as the bar is pulled towards the belly button. Then slowly lower the bar to the starting position and repeat.",
+    "category":"Arms, Back, Shoulders",
+    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/12-1.jpg",
+    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/12-2.jpg",
+    "equipment":"Barbell",
+    "difficulty":"Advanced"
+  },
+  {
+    "id":"6068c45506ae0f1c783dedc1",
+    "name":"Seated Crunch",
+    "description":"Adjust the seat to a comfortable height and the weight to the appropriate level before beginning. Sitting with the hips pressed against the back of the seat, push the shins against the padded roller and tighten the abs. Grasp the handles in both hands, and pull down on them to lean forward. Return slowly to the starting position.",
+    "category":"Abs",
+    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/291-1.jpg",
+    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/291-2.jpg",
+    "equipment":"Weight Machines / Selectorized",
     "difficulty":"Beginner"
+  },
+  {
+    "id":"6068c4c106ae0f1c783dedc2",
+    "name":"Back Squat",
+    "description":"Place a barbell in a rack just below shoulder-height. Dip under the bar to put it behind the neck across the top of the back, and grip the bar with the hands wider than shoulder-width apart. Lift the chest up and squeeze the shoulder blades together to keep the straight back throughout the entire movement. Stand up to bring the bar off the rack and step backwards, then place the feet so that they are a little wider than shoulder-width apart. Sit back into hips and keep the back straight and the chest up, squatting down so the hips are below the knees. From the bottom of the squat, press feet into the ground and push hips forward to return to the top of the standing position.",
+    "category":"Butt/Hips, Legs - Thighs",
+    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/11-1.jpg",
+    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/11-2.jpg",
+    "equipment":"Barbell",
+    "difficulty":"Advanced"
+  },
+  {
+    "id":"6068c58206ae0f1c783dedc3",
+    "name":"Seated Shoulder Press",
+    "description":"Sit in a shoulder-press bench and rack, and keep the back straight while gripping the bar with the hands a little wider than shoulder-width apart. Take the bar out of the rack and slowly lower to the front of the shoulders, stopping when the bar is about chin-height. Press the feet into the floor, squeeze the stomach muscles, and keep the elbows pointed forward while pressing the bar directly overhead. Slowly lower the bar to chin-height and repeat for the desired number of repetitions.",
+    "category":"Arms, Shoulders",
+    "imagePrimary":"https://acewebcontent.azureedge.net/exercise-library/large/43-1.jpg",
+    "imageSecondary":"https://acewebcontent.azureedge.net/exercise-library/large/43-2.jpg",
+    "equipment":"Barbell, Bench",
+    "difficulty":"Intermediate"
   }
 ]
