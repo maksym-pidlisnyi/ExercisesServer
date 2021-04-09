@@ -2,15 +2,34 @@
 
 const express = require("express");
 const app = express();
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
 
-app.listen(process.env.PORT || 3000,
-    () => console.log("Server is running..."));
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+
 app.use('/', express.static(__dirname));
-app.set('view engine', 'ejs');
-
-const MongoClient = require("mongodb").MongoClient;
 const url = process.env.MONGODB_URI;
-let mongoClient = MongoClient;
+
+const mongoose = require('mongoose');
+
+mongoose
+    .connect(url, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    })
+    .then(() => {
+        console.log("Successfully connect to MongoDB.");
+    })
+    .catch(err => {
+        console.error("Connection error", err);
+        process.exit();
+    });
+
+require('./routes/exercise.routes')(app);
 
 
 app.get('/', function (req, res) {
@@ -21,43 +40,5 @@ app.get('/', function (req, res) {
     res.status(200).sendFile("exercises.json")
 })
 
-app.get('/exercises', function (req, res) {
-    getALLExercises().then(exercises => {
-        res.send(JSON.stringify(exercises));
-    });
-})
-
-function getALLExercises() {
-    let db;
-    return mongoClient.connect(url, {
-        useUnifiedTopology: true,
-        useNewUrlParser: true,
-    })
-        .then((client) => {
-            db = client.db("exercises");
-            return db.collection("exercise").find().toArray();
-        })
-        .then(function (results) {
-                let values = [];
-                if (results) {
-                    for (let i = 0; i < results.length; ++i) {
-                        let exercise = {
-                            id: results[i]._id,
-                            name: results[i].name,
-                            description: results[i].description,
-                            category: results[i].category,
-                            imagePrimary: results[i].imagePrimary,
-                            imageSecondary: results[i].imageSecondary,
-                            equipment: results[i].equipment,
-                            difficulty: results[i].difficulty,
-                        };
-                        values.push(exercise);
-                    }
-                }
-                return values;
-            }
-        )
-        .catch(err => {
-            console.log(err);
-        });
-}
+app.listen(process.env.PORT || 3000,
+    () => console.log("Server is running..."));
