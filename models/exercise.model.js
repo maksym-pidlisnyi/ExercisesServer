@@ -23,6 +23,9 @@ const Exercise = mongoose.model(
         },
         difficulty: {
             type: String
+        },
+        url: {
+            type: String
         }
     })
 );

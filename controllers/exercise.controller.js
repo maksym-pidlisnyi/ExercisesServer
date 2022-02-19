@@ -9,6 +9,7 @@ exports.upsertExercise = (req, res) => {
         imageSecondary: req.body.imageSecondary,
         equipment: req.body.equipment,
         difficulty: req.body.difficulty,
+        url: req.body.url
     }
     Exercise.findOneAndUpdate({'name': req.body.name}, exercise, {upsert: true}, function(err, doc) {
         if (err) return res.send(500, {error: err});
